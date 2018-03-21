@@ -1,6 +1,8 @@
-Welcome to `ruby-on-chess`. This apps seeks to allow command line instructions
-to play chess. The aim of this app is to be useful for players want to play
-eventually blindfold chess or chess without a board.
+Welcome to `ruby-on-chess`.
+
+This app seeks to allow command line instructions to play chess. The aim of this
+app is to be useful for players want to play eventually blindfold chess or chess
+without a board.
 
 Here are some aspects of command line functionality, that would be good to
 feature in the game.
