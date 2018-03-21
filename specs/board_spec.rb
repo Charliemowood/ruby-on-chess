@@ -11,10 +11,12 @@ class TestBoard < Minitest::Test
     refute_nil(@board)
   end
 
-  def test_board_has_castle_at_a_one
+  def test_board_has_castle_at_a1
     assert_equal(@board.position("a1"), "white_castle")
   end
 
-
+  def test_board_has_knight_at_a2
+    assert_equal(@board.position("a2"), "white_knight_one")
+  end
 
 end

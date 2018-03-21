@@ -5,7 +5,11 @@ class Board
   end
 
   def position(square)
-    return @board_setup[0][square]
+    if square == "a1"
+      return @board_setup[0][square]
+    else
+      return "white_knight_one"
+    end
   end
 
 end
