@@ -1,14 +1,10 @@
 class Board
 
-  def initialize
-    @board_setup = [{ "a1" => "white_castle"}]
-  end
-
-  def position(square)
-    if square == "a1"
-      return @board_setup[0][square]
-    else
-      return "white_knight_one"
+  def position(board_setup, square_position)
+    for square in board_setup do
+      if square[:square] == square_position
+        return square[:piece_status]
+      end
     end
   end
 
