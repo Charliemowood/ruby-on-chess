@@ -5,8 +5,8 @@ class TestBoard < Minitest::Test
 
   def setup
     @board = Board.new()
-    @board_setup = [{square: "a1", piece_status: "white_castle_one"}, {square: "a2", piece_status:
-      "white_knight_one"}, {square: "a3", piece_status: "white_bishop_one"}, square: "a4", piece_status: "white_king"]
+    @board_setup = [{square: "a1", piece_status: "white_castle_one"}, {square: "b1", piece_status:
+      "white_knight_one"}, {square: "c1", piece_status: "white_bishop_one"}, square: "d1", piece_status: "white_king"]
   end
 
   def test_board_exists
